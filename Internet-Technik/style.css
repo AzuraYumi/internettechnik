@@ -148,10 +148,30 @@ ul.li {
 
 div.relative {
   position: relative;
+<<<<<<< Updated upstream:Internet-Technik/style.css
   top: 35rem;
   padding: 1.5rem;
 }
 
+=======
+  top: 38rem;
+  padding: 1.5rem;
+}
+
+div.relative2 {
+  position: relative;
+  top: 38rem;
+  padding: 1.5rem;
+}
+
+div.relative3 {
+  position: relative;
+  top: 38rem;
+  padding: 1.5rem;
+}
+
+
+>>>>>>> Stashed changes:docs/style.css
 .gallery {
   display: flex;
   flex-flow: row wrap;
