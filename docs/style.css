@@ -146,11 +146,24 @@ ul.li {
   z-index: 2;
 }
 
-div.relative {
+div.relative1 {
   position: relative;
-  top: 35rem;
+  top: 30rem;
   padding: 1.5rem;
 }
+
+div.relative2 {
+  position: relative;
+  top: 23rem;
+  padding: 1.5rem;
+}
+
+div.relative3 {
+  position: relative;
+  top: 38rem;
+  padding: 1.5rem;
+}
+
 
 .gallery {
   display: flex;
@@ -166,4 +179,83 @@ div.relative {
 
 .gallery img:not(:first-child) {
   padding-left: 1%;
+}
+
+/*## other screen sizes
+##
+## Large devices (desktops, less than 1700px)
+##
+/*##############################################################################*/
+@media (max-width: 1700px) {
+}
+
+/*##############################################################################
+##
+## Large devices (desktops, less than 1500px)
+##  
+##############################################################################*/
+@media (max-width: 1500px) {
+  .container {
+    max-width: 75%;
+  }
+}
+
+/*##############################################################################
+##
+## Large devices (desktops, less than 1400px)
+##
+##############################################################################*/
+@media (max-width: 1400px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+/*##############################################################################
+##
+## Large devices (desktops, less than 1300px)
+##
+##############################################################################*/
+@media (max-width: 1300px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/*##############################################################################
+##
+## Large devices (desktops, less than 1200px)
+##
+##############################################################################*/
+@media (max-width: 1199px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/*##############################################################################
+##
+## Small devices (landscape phones, less than 991px)
+##
+##############################################################################*/
+@media (max-width: 991px) {
+  body.body-main-container {
+    grid-template-rows: 5rem 1fr 13rem;
+  }
+}
+
+/*##############################################################################
+##
+## Small devices (landscape phones, less than 768px)
+##
+##############################################################################*/
+@media (max-width: 767px) {
+}
+
+/*##############################################################################
+##
+## Extra small devices (portrait phones, less than 576px)
+##
+##############################################################################*/
+@media (max-width: 575px) {
 }
