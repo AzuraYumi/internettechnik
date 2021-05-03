@@ -146,19 +146,7 @@ ul.li {
   z-index: 2;
 }
 
-div.relative1 {
-  position: relative;
-  top: 30rem;
-  padding: 1.5rem;
-}
-
-div.relative2 {
-  position: relative;
-  top: 23rem;
-  padding: 1.5rem;
-}
-
-div.relative3 {
+div.relative {
   position: relative;
   top: 38rem;
   padding: 1.5rem;
@@ -231,6 +219,21 @@ div.relative3 {
   .container {
     max-width: 100%;
   }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .gallery img{
+    width: 100%;
+    padding: 5px;
+  }
+  div.relative {
+    position: relative;
+    top: 15rem;
+    padding: 1.5rem;
+  }
+  
 }
 
 /*##############################################################################
@@ -242,6 +245,20 @@ div.relative3 {
   body.body-main-container {
     grid-template-rows: 5rem 1fr 13rem;
   }
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .gallery img{
+    width: 100%;
+    padding: 5px;
+  }
+  div.relative {
+    position: relative;
+    top: 7rem;
+    padding: 1.5rem;
+  }
 }
 
 /*##############################################################################
@@ -250,6 +267,15 @@ div.relative3 {
 ##
 ##############################################################################*/
 @media (max-width: 767px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .gallery img{
+    width: 100%;
+    padding: 5px;
+  }
 }
 
 /*##############################################################################
@@ -258,4 +284,13 @@ div.relative3 {
 ##
 ##############################################################################*/
 @media (max-width: 575px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .gallery img{
+    width: 100%;
+    padding: 5px;
+  }
 }
