@@ -79,15 +79,24 @@ $( document ).ready(function() {
  }
   
  window.onload = function(){
-      if(checkCookie(window.cookieName) != window.cookieValue){
+      // if(checkCookie(window.cookieName) != window.cookieValue){
          createDiv(); 
-      }
+      // }
  }
  
  function removeMe(){
    var element = document.getElementById('cookie-law');
    element.parentNode.removeChild(element);
  }
+
+ function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
 
 
 // ---------------------------------------------------------------------------------------

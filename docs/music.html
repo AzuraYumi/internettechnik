@@ -9,14 +9,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 
+  <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="java.js"></script>  
+
 </head>
 
 <body bgcolor="#452793">
 
   <div class="topnav">
-    <a href="index.html">Home</a>
-    <a class="active" href="music.html">Music</a>
-    <a href="Bilder.html">Pics</a>
+    <a class="active" href="home.html">Home</a>
+    <div id="myLinks">
+      <a href="music.html">Music</a>
+      <a href="Bilder.html">Pics</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
   </div>
 
   <div class="container">
